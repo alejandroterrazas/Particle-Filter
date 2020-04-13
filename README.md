@@ -115,9 +115,6 @@ The inputs to the particle filter are in the `data` directory.
 
 > * Map data provided by 3D Mapping Solutions GmbH.
 
-1. **Accuracy**: your particle filter should localize vehicle position and yaw to within the values specified in the parameters `max_translation_error` and `max_yaw_error` in `src/main.cpp`.
+1. **Accuracy**: The particle filter should localize vehicle position and yaw to within the values specified in the parameters `max_translation_error` and `max_yaw_error` in `src/main.cpp`.
 
-2. **Performance**: your particle filter should complete execution within the time of 100 seconds.
-
-
-# particle-filter
+2. **Performance**: The particle filter should complete execution within the time of 100 seconds.

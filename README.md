@@ -1,5 +1,5 @@
 # Overview
-This repository contains my code for the final project for the Localization course in Udacity's Self-Driving Car Nanodegree. The code implements a two-dimensional particle filter.  
+This repository contains my code for the final project of the localization portion in Udacity's Self-Driving Car Nanodegree. The code implements a two-dimensional particle filter.  
 
 ## Project Introduction
 In this project, the robot has been kidnapped and transported to a new location. Unlike a full simultaneous localization and mapping (SLAM) approach, the robot has a map of the landmarks of the location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.

@@ -109,6 +109,7 @@ int main() {
           std::istream_iterator<float>(),
           std::back_inserter(y_sense));
 
+          //Loop over sensor values, assign them to the Landmark observation and append
           for (int i = 0; i < x_sense.size(); ++i) {
             LandmarkObs obs;
             obs.x = x_sense[i];
@@ -117,6 +118,7 @@ int main() {
           }
 
           // Update the weights and resample
+          // uses the motion model to change the particle pose (x,y,theta)
           pf.updateWeights(sensor_range, sigma_landmark, noisy_observations, map);      
           pf.resample();
           
